@@ -138,6 +138,7 @@ void draw() {
 
 	glLightfv(CAMERA_LIGHT, GL_POSITION, light_position);
 
+	glColor3f(1.0, 1.0, 1.0);
 	draw_cube();
 	draw_cylinder();
 	draw_sphere();
