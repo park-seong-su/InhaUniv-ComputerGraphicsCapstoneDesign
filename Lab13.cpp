@@ -24,6 +24,7 @@ void draw_text();
 int current_width, current_height;
 GLUquadricObj* qobj = gluNewQuadric();
 
+
 int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
